@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "CommonLib\Comm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BomGuiLib", "BomGuiLib\BomGuiLib.csproj", "{07F4352C-A3FF-4EA5-821D-58F9C17CE2C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BomModelLib", "BomModelLib\BomModelLib.csproj", "{22CE57BB-0777-4C73-B06E-5E470B9B42D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BomLib", "BomModelLib\BomLib.csproj", "{22CE57BB-0777-4C73-B06E-5E470B9B42D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BomCalculator", "BomCalculator\BomCalculator.csproj", "{12DF049A-7D28-4339-A804-3EFD4160D69A}"
 EndProject

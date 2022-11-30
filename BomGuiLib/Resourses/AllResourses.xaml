@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <!--Задает тему по умолчанию на компонентах MS. Сборка должна быть подключена в сборке, которая ссылается на этот ресурс-->
+        <!--<ResourceDictionary Source="/Telerik.Windows.Themes.Vista;component/Themes/System.Windows.xaml"/>-->
+        <!--Стили-->
+        <ResourceDictionary Source="/BomGuiLib;component/Resourses/Styles.xaml"/>
+        <ResourceDictionary Source="/BomGuiLib;component/Resourses/Converters.xaml"/>
+        <ResourceDictionary Source="/BomGuiLib;component/Resourses/DataTemplates.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/BomGuiLib;component/Styles/BorderStyles.xaml"/>
+        <ResourceDictionary Source="/BomGuiLib;component/Styles/ButtonStyles.xaml"/>
+        <ResourceDictionary Source="/BomGuiLib;component/Styles/GridSplitterStyles.xaml"/>
+        <ResourceDictionary Source="/BomGuiLib;component/Styles/MsControlStyle.xaml"/>
+        <ResourceDictionary Source="/BomGuiLib;component/Styles/RadGridViewStyles.xaml"/>
+        <ResourceDictionary Source="/BomGuiLib;component/Styles/RadTreeViewStyles.xaml"/>
+        <ResourceDictionary Source="/BomGuiLib;component/Styles/TextBlockStyles.xaml"/>
+        <ResourceDictionary Source="/BomGuiLib;component/Styles/TextBoxStyles.xaml"/>
+        <ResourceDictionary Source="/BomGuiLib;component/Styles/ToolTipStyles.xaml"/>
+	</ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

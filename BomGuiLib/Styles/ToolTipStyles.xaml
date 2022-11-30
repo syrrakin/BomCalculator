@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+                    xmlns:converters="clr-namespace:MTR2GuiLib.Converters">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="MsControlStyle.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    <Style x:Key="CommonTooltipStyle" TargetType="ToolTip" BasedOn="{StaticResource MsControlStyle}"/>
+
+    <!--<Style x:Key="ProductTreeTooltipStyle" TargetType="ToolTip">
+        <Setter Property="Content">
+            <Setter.Value>
+                <TextBlock MaxWidth="300" TextWrapping="Wrap" Text="{Binding Converter={StaticResource ProductTreeNodeToTooltipConverter}}"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <DataTemplate x:Key="TooltipTemplate">
+        <TextBlock MaxWidth="300" TextWrapping="Wrap" Text="{Binding RelativeSource={RelativeSource Mode=TemplatedParent}, Converter={StaticResource ProductTreeNodeToTooltipConverter}}"/>
+    </DataTemplate>-->
+</ResourceDictionary>
