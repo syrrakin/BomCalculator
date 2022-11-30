@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BomCalculator", "BomCalculator\BomCalculator.csproj", "{896430F6-5698-4788-8E85-7DBD9DB632EA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "CommonLib\CommonLib.csproj", "{2C8E8971-40E6-4E8E-84ED-8D7CC20E00A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BomGuiLib", "BomGuiLib\BomGuiLib.csproj", "{07F4352C-A3FF-4EA5-821D-58F9C17CE2C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BomModelLib", "BomModelLib\BomModelLib.csproj", "{22CE57BB-0777-4C73-B06E-5E470B9B42D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BomCalculator", "BomCalculator\BomCalculator.csproj", "{12DF049A-7D28-4339-A804-3EFD4160D69A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{896430F6-5698-4788-8E85-7DBD9DB632EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{896430F6-5698-4788-8E85-7DBD9DB632EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{896430F6-5698-4788-8E85-7DBD9DB632EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{896430F6-5698-4788-8E85-7DBD9DB632EA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C8E8971-40E6-4E8E-84ED-8D7CC20E00A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C8E8971-40E6-4E8E-84ED-8D7CC20E00A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C8E8971-40E6-4E8E-84ED-8D7CC20E00A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{22CE57BB-0777-4C73-B06E-5E470B9B42D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22CE57BB-0777-4C73-B06E-5E470B9B42D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22CE57BB-0777-4C73-B06E-5E470B9B42D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DF049A-7D28-4339-A804-3EFD4160D69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DF049A-7D28-4339-A804-3EFD4160D69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DF049A-7D28-4339-A804-3EFD4160D69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DF049A-7D28-4339-A804-3EFD4160D69A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
